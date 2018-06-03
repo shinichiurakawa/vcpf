@@ -1,10 +1,8 @@
-package jp.co.vcpf.api.dto;
-
-import jp.co.vcpf.api.entity.SearchResultItemEntity;
+package jp.co.vcpf.clustering.dto;
 
 import java.util.List;
 
-public class RequestScrapingDto {
+public class RequestClusteringDto {
     private String searchTerms;
     private List<ScrapingItemDto> items;
 

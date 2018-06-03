@@ -13,18 +13,23 @@ public class ScrapingServiceImpl {
     @Autowired
     ClusteringApiDao clusteringApiDao;
 
-    public String scraping(List<ScrapingItemDto> scrapingItemDtoList) {
+    public String scraping(List<ScrapingItemDto> scrapingItemDtoList) throws Exception {
+        /*
+         * 全検索結果に対して、Jsoupによるscrapingを実行
+         */
         for (ScrapingItemDto scrapItem : scrapingItemDtoList) {
             try {
                 Document doc = Jsoup.connect(scrapItem.getLink()).get();
                 scrapItem.setContent(doc.body().text());
 
             } catch (Exception e) {
-
             }
-
         }
+        /*
+         * scraping結果をclusteringする
+         */
         RequestClusteringDto requestClusteringDto = new RequestClusteringDto();
+
         String result = clusteringApiDao.clustering(requestClusteringDto);
         return result;
     }
