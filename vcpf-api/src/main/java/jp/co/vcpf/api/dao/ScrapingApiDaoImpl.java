@@ -3,6 +3,7 @@ package jp.co.vcpf.api.dao;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jp.co.vcpf.api.config.NextConnection;
 import jp.co.vcpf.api.dto.RequestScrapingDto;
+import jp.co.vcpf.api.service.SearchServiceImpl;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -11,6 +12,8 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -20,10 +23,12 @@ import java.nio.charset.StandardCharsets;
 
 @Component
 public class ScrapingApiDaoImpl implements ScrapingApiDao {
+    private static final Logger logger = LoggerFactory.getLogger(ScrapingApiDaoImpl.class);
+
     @Autowired
     NextConnection nextConnection;
     private String createQueryString() {
-        String end_point = nextConnection.getHostname() + nextConnection.getEndpoint();
+        String end_point = nextConnection.getHostname() + ":" + nextConnection.getPort() + nextConnection.getEndpoint();
         return end_point;
     }
     public String scrap(RequestScrapingDto requestScrapingDto) {
@@ -33,11 +38,15 @@ public class ScrapingApiDaoImpl implements ScrapingApiDao {
 
         CloseableHttpResponse response = null;
 
+        // header
+        request.addHeader("Content-type","application/json");
+
         try {
             String json = mapper.writeValueAsString(requestScrapingDto);
             request.setEntity(new StringEntity(json));
 
             response = httpclient.execute(request);
+            logger.debug("json : " + json);
 
             int status = response.getStatusLine().getStatusCode();
 

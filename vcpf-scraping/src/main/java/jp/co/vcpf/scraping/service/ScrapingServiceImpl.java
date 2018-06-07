@@ -6,10 +6,12 @@ import jp.co.vcpf.scraping.dto.ScrapingItemDto;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-public class ScrapingServiceImpl {
+@Component
+public class ScrapingServiceImpl implements ScrapingService {
     @Autowired
     ClusteringApiDao clusteringApiDao;
 
