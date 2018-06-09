@@ -23,13 +23,16 @@ public class ClusteringApiDaoImpl implements ClusteringApiDao {
     @Autowired
     NextConnection nextConnection;
     private String createQueryString() {
-        String end_point = nextConnection.getHostname() + nextConnection.getEndpoint();
+        String end_point = nextConnection.getHostname() + ":" + nextConnection.getPort() + nextConnection.getEndpoint();
         return end_point;
     }
     public String clustering(RequestClusteringDto requestClusteringDto) {
         CloseableHttpClient httpclient = HttpClients.createDefault();
         HttpPost request = new HttpPost(this.createQueryString());
         ObjectMapper mapper = new ObjectMapper();
+
+        // header
+        request.addHeader("Content-type","application/json");
 
         CloseableHttpResponse response = null;
 

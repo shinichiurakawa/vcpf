@@ -4,7 +4,7 @@ import java.util.List;
 
 public class RequestScrapingDto {
     private String searchTerms;
-    private List<ScrapingItemDto> searchResultList;
+    private List<ScrapingItemDto> items;
 
     public String getSearchTerms() {
         return searchTerms;
@@ -14,11 +14,11 @@ public class RequestScrapingDto {
         this.searchTerms = searchTerms;
     }
 
-    public List<ScrapingItemDto> getSearchResultList() {
-        return searchResultList;
+    public List<ScrapingItemDto> getItems() {
+        return this.items;
     }
 
-    public void setSearchResultList(List<ScrapingItemDto> searchResultList) {
-        this.searchResultList = searchResultList;
+    public void setItems(List<ScrapingItemDto> items) {
+        this.items = items;
     }
 }

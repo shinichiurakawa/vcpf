@@ -15,7 +15,7 @@ public class ScrapingController {
     @PostMapping("/scraping")
     public String scraping(@RequestBody RequestScrapingDto requestScrapingDto) {
         try {
-            String result = scrapingService.scraping(requestScrapingDto.getSearchResultList());
+            String result = scrapingService.scraping(requestScrapingDto);
             return result;
         } catch (Exception e) {
             return "";
