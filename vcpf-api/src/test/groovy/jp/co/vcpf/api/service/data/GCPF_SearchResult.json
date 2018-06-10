@@ -1,0 +1,538 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - SpringBoot+MySQL",
+    "totalResults": "1250",
+    "searchTerms": "SpringBoot+MySQL",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "015617778025612568756:_lqcmynn5b4"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - SpringBoot+MySQL",
+    "totalResults": "1250",
+    "searchTerms": "SpringBoot+MySQL",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "015617778025612568756:_lqcmynn5b4"
+   }
+  ]
+ },
+ "context": {
+  "title": "jp_page"
+ },
+ "searchInformation": {
+  "searchTime": 0.167017,
+  "formattedSearchTime": "0.17",
+  "totalResults": "1250",
+  "formattedTotalResults": "1,250"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Spring Data RESTでMySQLにアクセス",
+   "htmlTitle": "Spring Data RESTで\u003cb\u003eMySQL\u003c/b\u003eにアクセス",
+   "link": "https://qiita.com/quwahara/items/4bfc3da62bd3a6c94e2a",
+   "displayLink": "qiita.com",
+   "snippet": "2016年4月20日 ... はじめに. Spring Data RESTを使って、MySQLにアクセスする最も簡単なREST APIを\n作成します。 ... compile 'org.webjars:bootstrap:3.3.6' // Add compile('org.\nspringframework.boot:spring-boot-starter-data-jpa') // Add ...",
+   "htmlSnippet": "2016年4月20日 \u003cb\u003e...\u003c/b\u003e はじめに. Spring Data RESTを使って、\u003cb\u003eMySQL\u003c/b\u003eにアクセスする最も簡単なREST APIを\u003cbr\u003e\n作成します。 ... compile &#39;org.webjars:bootstrap:3.3.6&#39; // Add compile(&#39;org.\u003cbr\u003e\nspringframework.boot:\u003cb\u003espring-boot\u003c/b\u003e-starter-data-jpa&#39;) // Add&nbsp;...",
+   "cacheId": "1Rd5YeiccYAJ",
+   "formattedUrl": "https://qiita.com/quwahara/items/4bfc3da62bd3a6c94e2a",
+   "htmlFormattedUrl": "https://qiita.com/quwahara/items/4bfc3da62bd3a6c94e2a",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTho7Ci4BqiWx5vwfeo11BYT_qRwWY53ewEj1CJwunPKJyQTUk4axOsGMhz"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "dot0iJrEdVdoWweIrtrY+tOTEbQh2vZezwJmCTzbYC3bV0pxj8XyAlMJW0+cNcAc8DqdRwaoclANKFfpx/Twvw==",
+      "twitter:card": "summary",
+      "twitter:site": "@Qiita",
+      "twitter:creator": "@quwahara",
+      "og:type": "article",
+      "og:title": "Spring Data RESTでMySQLにアクセス - Qiita",
+      "og:image": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+      "og:description": "# はじめに  Spring Data RESTを使って、MySQLにアクセスする最も簡単なREST APIを作成します。  # 参考  Accessing JPA Data with REST https://spring.io/g...",
+      "og:url": "https://qiita.com/quwahara/items/4bfc3da62bd3a6c94e2a",
+      "og:site_name": "Qiita",
+      "fb:admins": "564524038"
+     }
+    ],
+    "article": [
+     {
+      "headline": "Spring Data RESTでMySQLにアクセス",
+      "articlebody": "はじめに Spring Data RESTを使って、MySQLにアクセスする最も簡単なREST APIを作成します。 参考 Accessing JPA Data with REST https://spring.io/guides/gs/accessing-data-res..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/77421/profile-images/1473700818",
+      "name": "quwahara"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SpringBootとJPAを使ってDBにInsertするための8つのこと",
+   "htmlTitle": "\u003cb\u003eSpringBoot\u003c/b\u003eとJPAを使ってDBにInsertするための8つのこと",
+   "link": "https://qiita.com/Tsukuru/items/e4dab07c821ea9325768",
+   "displayLink": "qiita.com",
+   "snippet": "2017年12月1日 ... SpringBootとJPAを使ってDBにInsertするための８つのこと. 目次 0. 今回の目的 1. \nSpringBootのプロジェクト作成 2. MysqlにDBを用意する 3. PropertiesFileの設定 4. \nEntityクラスの用意 5. Repositoryクラスの用意 6. Serviceクラスの用意",
+   "htmlSnippet": "2017年12月1日 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eSpringBoot\u003c/b\u003eとJPAを使ってDBにInsertするための８つのこと. 目次 0. 今回の目的 1. \u003cbr\u003e\n\u003cb\u003eSpringBoot\u003c/b\u003eのプロジェクト作成 2. \u003cb\u003eMysql\u003c/b\u003eにDBを用意する 3. PropertiesFileの設定 4. \u003cbr\u003e\nEntityクラスの用意 5. Repositoryクラスの用意 6. Serviceクラスの用意",
+   "cacheId": "uvlQXsJzvVkJ",
+   "formattedUrl": "https://qiita.com/Tsukuru/items/e4dab07c821ea9325768",
+   "htmlFormattedUrl": "https://qiita.com/Tsukuru/items/e4dab07c821ea9325768",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTho7Ci4BqiWx5vwfeo11BYT_qRwWY53ewEj1CJwunPKJyQTUk4axOsGMhz"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "ZljVUlhjew7zjfnB840NwGtFBkm6eij/841ogksPYIPU2rWxRA6AT+VW3D4+BHmDvdiC9/Lwm0pZcggcZvmQ3g==",
+      "twitter:card": "summary",
+      "twitter:site": "@Qiita",
+      "og:type": "article",
+      "og:title": "SpringBootとJPAを使ってDBにInsertするための８つのこと - Qiita",
+      "og:image": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+      "og:description": "# SpringBootとJPAを使ってDBにInsertするための８つのこと **目次** 0. 今回の目的 1. SpringBootのプロジェクト作成 2. MysqlにDBを用意する 3. PropertiesFileの設定 ...",
+      "og:url": "https://qiita.com/Tsukuru/items/e4dab07c821ea9325768",
+      "og:site_name": "Qiita",
+      "fb:admins": "564524038"
+     }
+    ],
+    "article": [
+     {
+      "headline": "SpringBootとJPAを使ってDBにInsertするための８つのこと",
+      "articlebody": "SpringBootとJPAを使ってDBにInsertするための８つのこと 目次 0. 今回の目的 1. SpringBootのプロジェクト作成 2. MysqlにDBを用意する 3. PropertiesFileの設定..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/212818/profile-images/1517845913",
+      "name": "Tsukuru"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Spring Boot + JPA + MySQLでREST APIを実装する",
+   "htmlTitle": "\u003cb\u003eSpring Boot\u003c/b\u003e + JPA + \u003cb\u003eMySQL\u003c/b\u003eでREST APIを実装する",
+   "link": "https://qiita.com/kaikusakari/items/7414f194708bc50c5b8f",
+   "displayLink": "qiita.com",
+   "snippet": "2018年5月1日 ... 表題に向けて実装します。今回はこれまで作成したThymeleafを呼ぶコントローラは残し\nたまま、新しいREST APIコントローラを追加します。また、DBへの接続にjdbcを利用し\nていましたが、ORマッパのSpring Data JPAを利用するように変更し ...",
+   "htmlSnippet": "2018年5月1日 \u003cb\u003e...\u003c/b\u003e 表題に向けて実装します。今回はこれまで作成したThymeleafを呼ぶコントローラは残し\u003cbr\u003e\nたまま、新しいREST APIコントローラを追加します。また、DBへの接続にjdbcを利用し\u003cbr\u003e\nていましたが、ORマッパのSpring Data JPAを利用するように変更し&nbsp;...",
+   "cacheId": "BMbsFDMnAlQJ",
+   "formattedUrl": "https://qiita.com/kaikusakari/items/7414f194708bc50c5b8f",
+   "htmlFormattedUrl": "https://qiita.com/kaikusakari/items/7414f194708bc50c5b8f",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "187",
+      "height": "269",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqIXMIN0Iyhkk_4wDabUhexNOOlYaLhUFCqD0ESpWJfZN9VnmHqCTUvM"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "i56XZq1nuvqnoG6/kF4FK9Ihfp32cUuqLx6InylTLSv711Uek6P9k3jY5WkGphQ2b6EfTxejWLlW5ooOG4x7Bg=="
+     }
+    ],
+    "article": [
+     {
+      "headline": "Spring Boot + JPA + MySQLでREST APIを実装する",
+      "articlebody": "表題に向けて実装します。今回はこれまで作成したThymeleafを呼ぶコントローラは残したまま、新しいREST APIコントローラを追加します。また、DBへ..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/110457/profile-images/1492349911",
+      "name": "kaikusakari"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://camo.qiitausercontent.com/836c46a8533270e0f5d1a9070e22827568bf43c2/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f3131303435372f65393561613761362d353765662d356338362d366134392d3836356666303266333036352e706e67"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Spring Boot + Thymeleaf + MySQLでCRUDを実装する",
+   "htmlTitle": "\u003cb\u003eSpring Boot\u003c/b\u003e + Thymeleaf + \u003cb\u003eMySQL\u003c/b\u003eでCRUDを実装する",
+   "link": "https://qiita.com/kaikusakari/items/c14302d266868c5b31fd",
+   "displayLink": "qiita.com",
+   "snippet": "2017年5月5日 ... 前回、以下の記事を書きました。 Spring Boot + ThymeleafでWEBアプリを動かす. \n今回は同様の構成で、REST型でWebアプリにアクセスしてDBのデータを操作します。\n一番最初に表示する画面でテーブルのレコードを一覧表示しておき、 ...",
+   "htmlSnippet": "2017年5月5日 \u003cb\u003e...\u003c/b\u003e 前回、以下の記事を書きました。 \u003cb\u003eSpring Boot\u003c/b\u003e + ThymeleafでWEBアプリを動かす. \u003cbr\u003e\n今回は同様の構成で、REST型でWebアプリにアクセスしてDBのデータを操作します。\u003cbr\u003e\n一番最初に表示する画面でテーブルのレコードを一覧表示しておき、&nbsp;...",
+   "cacheId": "LIf4sawwIBMJ",
+   "formattedUrl": "https://qiita.com/kaikusakari/items/c14302d266868c5b31fd",
+   "htmlFormattedUrl": "https://qiita.com/kaikusakari/items/c14302d266868c5b31fd",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "201",
+      "height": "251",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnB2qapeNxlC686HN6m6vyz7ay-3p1MdYLaN6mkSGsoLzjf4BGMYVOyQxH"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "nImPUfvtGUfu/y6ZZYg3CpDP1fEkMPiOn+Qa0XN6PVG058OfgkBFtxjkeGuziL6wN7RpM5lzNONlamIL57SQaw=="
+     }
+    ],
+    "article": [
+     {
+      "headline": "Spring Boot + Thymeleaf + MySQLでCRUDを実装する",
+      "articlebody": "前回、以下の記事を書きました。 Spring Boot + ThymeleafでWEBアプリを動かす 今回は同様の構成で、REST型でWebアプリにアクセスしてDBのデータを操作し..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/110457/profile-images/1492349911",
+      "name": "kaikusakari"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://camo.qiitausercontent.com/81336d378ce9730cc1d354e2e82f46b23fc5254d/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f3131303435372f64653766656635382d666235662d663464392d383336392d3166306130313262663533332e706e67"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Spring Bootでデータベースに接続する",
+   "htmlTitle": "\u003cb\u003eSpring Boot\u003c/b\u003eでデータベースに接続する",
+   "link": "https://qiita.com/hiroshi_maz/items/b2e916144523614837a6",
+   "displayLink": "qiita.com",
+   "snippet": "2014年12月14日 ... \u003cdependency\u003e \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e \u003cartifactId\u003espring-\nboot-starter-data-jpa\u003c/artifactId\u003e \u003c/dependency\u003e \u003cdependency\u003e \u003cgroupId\u003emysql\n\u003c/groupId\u003e \u003cartifactId\u003emysql-connector-java\u003c/artifactId\u003e ...",
+   "htmlSnippet": "2014年12月14日 \u003cb\u003e...\u003c/b\u003e &lt;dependency&gt; &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt; &lt;artifactId&gt;\u003cb\u003espring-\u003c/b\u003e\u003cbr\u003e\n\u003cb\u003eboot\u003c/b\u003e-starter-data-jpa&lt;/artifactId&gt; &lt;/dependency&gt; &lt;dependency&gt; &lt;groupId&gt;\u003cb\u003emysql\u003c/b\u003e\u003cbr\u003e\n&lt;/groupId&gt; &lt;artifactId&gt;\u003cb\u003emysql\u003c/b\u003e-connector-java&lt;/artifactId&gt;&nbsp;...",
+   "cacheId": "-HxZqqktzscJ",
+   "formattedUrl": "https://qiita.com/hiroshi_maz/items/b2e916144523614837a6",
+   "htmlFormattedUrl": "https://qiita.com/hiroshi_maz/items/b2e916144523614837a6",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTho7Ci4BqiWx5vwfeo11BYT_qRwWY53ewEj1CJwunPKJyQTUk4axOsGMhz"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "9hDYYBOzvPyrFeK/XK5suFzoRycy5T+33CkEHLU1QBkTjQ+2F1QQowIgO2R2wXHFbEiPWMsQZqotYJTEbEihOw==",
+      "twitter:card": "summary",
+      "twitter:site": "@Qiita",
+      "og:type": "article",
+      "og:title": "Spring Bootでデータベースに接続する - Qiita",
+      "og:image": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+      "og:description": "少し時間が空いてしまいましたが[前回](http://qiita.com/hiroshi_maz/items/c0728996edd94c358c58)の続きから。  ## pom.xmlを編集する。 公式ドキュメントの[26.1....",
+      "og:url": "https://qiita.com/hiroshi_maz/items/b2e916144523614837a6",
+      "og:site_name": "Qiita",
+      "fb:admins": "564524038"
+     }
+    ],
+    "article": [
+     {
+      "headline": "Spring Bootでデータベースに接続する",
+      "articlebody": "少し時間が空いてしまいましたが前回の続きから。 pom.xmlを編集する。 公式ドキュメントの26.1.1 Embedded Database Supportを見つつ、自分の環境に合わせ..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/60982/profile-images/1473695403",
+      "name": "hiroshi_maz"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SpringBoot + Spring JPAでデータベースに接続する",
+   "htmlTitle": "\u003cb\u003eSpringBoot\u003c/b\u003e + Spring JPAでデータベースに接続する",
+   "link": "https://qiita.com/tiguchi919/items/685c0a1bb9b0e8ec68d2",
+   "displayLink": "qiita.com",
+   "snippet": "2018年4月17日 ... spring.datasource.url=jdbc:mysql://localhost:3306/sampledb spring.datasource.\nusername=testuser spring.datasource.password=testuser ... dependencies { \ncompile('org.springframework.boot:spring-boot-starter-data-jpa') ...",
+   "htmlSnippet": "2018年4月17日 \u003cb\u003e...\u003c/b\u003e spring.datasource.url=jdbc:\u003cb\u003emysql\u003c/b\u003e://localhost:3306/sampledb spring.datasource.\u003cbr\u003e\nusername=testuser spring.datasource.password=testuser ... dependencies { \u003cbr\u003e\ncompile(&#39;org.springframework.boot:\u003cb\u003espring-boot\u003c/b\u003e-starter-data-jpa&#39;)&nbsp;...",
+   "cacheId": "7DIhCgfyXREJ",
+   "formattedUrl": "https://qiita.com/tiguchi919/items/685c0a1bb9b0e8ec68d2",
+   "htmlFormattedUrl": "https://qiita.com/tiguchi919/items/685c0a1bb9b0e8ec68d2",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "BlvTeBowQ1Hx2p4EX//VF782Q4Zr4JWqrCEEFTXN2AmQTkEQgKAWJaLFrZnhE+jRBqGig4HrBbWxO+vd++gW+A=="
+     }
+    ],
+    "article": [
+     {
+      "headline": "SpringBoot + Spring JPAでデータベースに接続する",
+      "articlebody": "SpringBootでデータベースにアクセスしてみます jpaを使うために、以下の作業を行います ・application.propertiesにＤＢ接続のための設定を行う・Entity,..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50",
+      "name": "tiguchi919"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SpringBootの開発環境をdockerでつくる",
+   "htmlTitle": "\u003cb\u003eSpringBoot\u003c/b\u003eの開発環境をdockerでつくる",
+   "link": "https://qiita.com/wataling/items/fa8b74fa50d80b88aea3",
+   "displayLink": "qiita.com",
+   "snippet": "2018年3月12日 ... 趣味の開発でチームでSpringBootを使ってwebサービスを作ろうという話になった。\njavaはわかるがSpringBootの知識は0なのでdockerを使って試し ... SpringBoot用の\nmysqlユーザ sbootを作成する; localhostのポート3306にリンクさせる.",
+   "htmlSnippet": "2018年3月12日 \u003cb\u003e...\u003c/b\u003e 趣味の開発でチームで\u003cb\u003eSpringBoot\u003c/b\u003eを使ってwebサービスを作ろうという話になった。\u003cbr\u003e\njavaはわかるが\u003cb\u003eSpringBoot\u003c/b\u003eの知識は0なのでdockerを使って試し ... \u003cb\u003eSpringBoot\u003c/b\u003e用の\u003cbr\u003e\n\u003cb\u003emysql\u003c/b\u003eユーザ sbootを作成する; localhostのポート3306にリンクさせる.",
+   "cacheId": "ftd6ogsYdiMJ",
+   "formattedUrl": "https://qiita.com/wataling/items/fa8b74fa50d80b88aea3",
+   "htmlFormattedUrl": "https://qiita.com/wataling/items/fa8b74fa50d80b88aea3",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTho7Ci4BqiWx5vwfeo11BYT_qRwWY53ewEj1CJwunPKJyQTUk4axOsGMhz"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "BRnMVDZzOjQxdhekkikPJVPfEzhOHzNklGrYeWMR7+RIm53WSGMxykXVBHXRY0Oa1ZPIO30be8jzFx5gQ2yzNw==",
+      "twitter:card": "summary",
+      "twitter:site": "@Qiita",
+      "og:type": "article",
+      "og:title": "SpringBootの開発環境をdockerでつくる - Qiita",
+      "og:image": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+      "og:description": "#はじめに 趣味の開発でチームでSpringBootを使ってwebサービスを作ろうという話になった。javaはわかるがSpringBootの知識は0なのでdockerを使って試しにREST APIを作ってみた。 作成するにあたって、以...",
+      "og:url": "https://qiita.com/wataling/items/fa8b74fa50d80b88aea3",
+      "og:site_name": "Qiita",
+      "fb:admins": "564524038"
+     }
+    ],
+    "article": [
+     {
+      "headline": "SpringBootの開発環境をdockerでつくる",
+      "articlebody": "はじめに 趣味の開発でチームでSpringBootを使ってwebサービスを作ろうという話になった。javaはわかるがSpringBootの知識は0なのでdockerを使って試しに..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/137213/profile-images/1520094241",
+      "name": "wataling"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Eclipse + Spring Boot + MySQL 環境構築",
+   "htmlTitle": "Eclipse + \u003cb\u003eSpring Boot\u003c/b\u003e + \u003cb\u003eMySQL\u003c/b\u003e 環境構築",
+   "link": "https://qiita.com/ara-bot/items/fe4171d8fb282e6e3876",
+   "displayLink": "qiita.com",
+   "snippet": "2018年4月20日 ... 勉強の為に開発環境を構築してみます。 ◇前提構築するのは次の環境・Windows8.1. \n◇Eclipseのインストールインストールと言っても、サイトからD/Lして配置するだけ・対象\nバージョン Pleiades All in One 4.7.3a.v20180411 Eclipse 4.7 ...",
+   "htmlSnippet": "2018年4月20日 \u003cb\u003e...\u003c/b\u003e 勉強の為に開発環境を構築してみます。 ◇前提構築するのは次の環境・Windows8.1. \u003cbr\u003e\n◇Eclipseのインストールインストールと言っても、サイトからD/Lして配置するだけ・対象\u003cbr\u003e\nバージョン Pleiades All in One 4.7.3a.v20180411 Eclipse 4.7&nbsp;...",
+   "cacheId": "wue8BnWqbNgJ",
+   "formattedUrl": "https://qiita.com/ara-bot/items/fe4171d8fb282e6e3876",
+   "htmlFormattedUrl": "https://qiita.com/ara-bot/items/fe4171d8fb282e6e3876",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTho7Ci4BqiWx5vwfeo11BYT_qRwWY53ewEj1CJwunPKJyQTUk4axOsGMhz"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "ML/smE4azDwxOAluyZBvxu3ZdYNAIA0FOkd2AOpi/Hb1Os1yerKC6f52RrDLADtKqIbxDFd+jtGBoDjprJ+q2Q==",
+      "twitter:card": "summary",
+      "twitter:site": "@Qiita",
+      "og:type": "article",
+      "og:title": "Eclipse + Spring Boot + MySQL 環境構築 - Qiita",
+      "og:image": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+      "og:description": "勉強の為に開発環境を構築してみます。  ◆前提 構築するのは次の環境 ・Windows8.1  ◆Eclipseのインストール インストールと言っても、サイトからD/Lして配置するだけ ・対象バージョン 　Pleiades All i...",
+      "og:url": "https://qiita.com/ara-bot/items/fe4171d8fb282e6e3876",
+      "og:site_name": "Qiita",
+      "fb:admins": "564524038"
+     }
+    ],
+    "article": [
+     {
+      "headline": "Eclipse + Spring Boot + MySQL 環境構築",
+      "articlebody": "勉強の為に開発環境を構築してみます。 ◆前提\u003cbr\u003e 構築するのは次の環境・Windows8.1 ◆Eclipseのインストール\u003cbr\u003e インストールと言っても、サイトか..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/192283/profile-images/1527424951",
+      "name": "ara-bot"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Groovyを使ったSpring Boot, Data JPA, MySQL操作の簡単な実装",
+   "htmlTitle": "Groovyを使った\u003cb\u003eSpring Boot\u003c/b\u003e, Data JPA, \u003cb\u003eMySQL\u003c/b\u003e操作の簡単な実装",
+   "link": "https://qiita.com/quwahara/items/6567fd54772a879a7a6f",
+   "displayLink": "qiita.com",
+   "snippet": "2015年6月15日 ... 環境. OS X Yosemite 10.10.3 jdk1.8.0_45.jdk MySQL Server version: 5.5.28 \nSource distribution. Spring Tool Suite. Version: 3.6.4.RELEASE Build Id: \n201503100337. Platform: Eclipse Kepler SR2 (4.3.2). Gradle IDE plugin ...",
+   "htmlSnippet": "2015年6月15日 \u003cb\u003e...\u003c/b\u003e 環境. OS X Yosemite 10.10.3 jdk1.8.0_45.jdk \u003cb\u003eMySQL\u003c/b\u003e Server version: 5.5.28 \u003cbr\u003e\nSource distribution. Spring Tool Suite. Version: 3.6.4.RELEASE Build Id: \u003cbr\u003e\n201503100337. Platform: Eclipse Kepler SR2 (4.3.2). Gradle IDE plugin&nbsp;...",
+   "cacheId": "lnw2HkoYEpkJ",
+   "formattedUrl": "https://qiita.com/quwahara/items/6567fd54772a879a7a6f",
+   "htmlFormattedUrl": "https://qiita.com/quwahara/items/6567fd54772a879a7a6f",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "4tHY/3g8tq5zYUfhN6AWZ/Sytgtxm8UEAGy3/beQeJqPWvvfK3i4qm84jXsG6iyxma1Wdn/TMKCCmhdS8c3tlw=="
+     }
+    ],
+    "article": [
+     {
+      "headline": "Groovyを使ったSpring Boot, Data JPA, MySQL操作の簡単な実装",
+      "articlebody": "環境 OS X Yosemite 10.10.3 jdk1.8.0_45.jdk MySQL Server version: 5.5.28 Source distribution Spring Tool Suite Version: 3.6.4.RELEASE Build Id: 201503100337 Platform: Eclipse Kepler SR2 (4.3.2)..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/77421/profile-images/1473700818",
+      "name": "quwahara"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Spring Boot環境でのSpring Data JPA 事始めメモ",
+   "htmlTitle": "\u003cb\u003eSpring Boot\u003c/b\u003e環境でのSpring Data JPA 事始めメモ",
+   "link": "https://qiita.com/shin_hayata/items/24d36fa349a9c7e5a176",
+   "displayLink": "qiita.com",
+   "snippet": "2017年4月10日 ... 自分はいつも簡単なチュートリアルから始めます。1番のリンクは、Spring Bootを使った\nSpring Data JPAのGetting Startedです。 続いて、設定 ... spring.datasource.url=\njdbc:mysql://localhost/test spring.datasource.username=dbuser ...",
+   "htmlSnippet": "2017年4月10日 \u003cb\u003e...\u003c/b\u003e 自分はいつも簡単なチュートリアルから始めます。1番のリンクは、\u003cb\u003eSpring Boot\u003c/b\u003eを使った\u003cbr\u003e\nSpring Data JPAのGetting Startedです。 続いて、設定 ... spring.datasource.url=\u003cbr\u003e\njdbc:\u003cb\u003emysql\u003c/b\u003e://localhost/test spring.datasource.username=dbuser&nbsp;...",
+   "cacheId": "mDEDZtesGE0J",
+   "formattedUrl": "https://qiita.com/shin_hayata/items/24d36fa349a9c7e5a176",
+   "htmlFormattedUrl": "https://qiita.com/shin_hayata/items/24d36fa349a9c7e5a176",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTho7Ci4BqiWx5vwfeo11BYT_qRwWY53ewEj1CJwunPKJyQTUk4axOsGMhz"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+      "theme-color": "#55c500",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "i6nBhMuww9W5oQJUwT25t7J9rMtyxkyoqCQmOuCBlcjNzeZ/b3C2XJQ8gKd2sKonoUyEmONQ1MA0JOXZbKBTyw==",
+      "twitter:card": "summary",
+      "twitter:site": "@Qiita",
+      "twitter:creator": "@hayata_m78",
+      "og:type": "article",
+      "og:title": "Spring Boot環境でのSpring Data JPA 事始めメモ - Qiita",
+      "og:image": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+      "og:description": "こんにちは、大分ベテランになってきた職業プログラマ:older_man_tone1:です。 頑張って新しいフレームワークを学んでおりますが、難しいやら覚えられないやらで、困っています。 最近は、Qiitaのようなプログラマ情報共有サイ...",
+      "og:url": "https://qiita.com/shin_hayata/items/24d36fa349a9c7e5a176",
+      "og:site_name": "Qiita",
+      "fb:admins": "564524038"
+     }
+    ],
+    "article": [
+     {
+      "headline": "Spring Boot環境でのSpring Data JPA 事始めメモ",
+      "articlebody": "こんにちは、大分ベテランになってきた職業プログラマです。 頑張って新しいフレームワークを学んでおりますが、難しいやら覚えられないやら..."
+     }
+    ],
+    "person": [
+     {
+      "image": "https://qiita-image-store.s3.amazonaws.com/0/133139/profile-images/1509616140",
+      "name": "shin_hayata"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png"
+     }
+    ]
+   }
+  }
+ ]
+}

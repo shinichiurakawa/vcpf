@@ -11,6 +11,8 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -24,6 +26,8 @@ import java.util.Objects;
 
 @Component
 public class CustomSearchApiDaoImpl implements CustomSearchApiDao {
+    private static final Logger logger = LoggerFactory.getLogger(CustomSearchApiDaoImpl.class);
+
     @Autowired
     GcpConnection gcpConnection;
 
