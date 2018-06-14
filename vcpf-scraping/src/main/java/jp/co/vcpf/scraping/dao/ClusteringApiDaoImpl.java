@@ -32,7 +32,8 @@ public class ClusteringApiDaoImpl implements ClusteringApiDao {
         ObjectMapper mapper = new ObjectMapper();
 
         // header
-        request.addHeader("Content-type","application/json");
+        //request.addHeader("Content-type","application/json");
+        request.addHeader("Content-type","application/json; charset=UTF-8");
 
         CloseableHttpResponse response = null;
 

@@ -39,7 +39,8 @@ public class ScrapingApiDaoImpl implements ScrapingApiDao {
         CloseableHttpResponse response = null;
 
         // header
-        request.addHeader("Content-type","application/json");
+        //request.addHeader("Content-type","application/json");
+        request.addHeader("Content-type","application/json; charset=UTF-8");
 
         try {
             String json = mapper.writeValueAsString(requestScrapingDto);
