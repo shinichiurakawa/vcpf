@@ -3,9 +3,7 @@ package jp.co.vcpf.scraping.service;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jp.co.vcpf.scraping.dao.ClusteringApiDao;
-import jp.co.vcpf.scraping.dto.RequestClusteringDto;
-import jp.co.vcpf.scraping.dto.RequestScrapingDto;
-import jp.co.vcpf.scraping.dto.ScrapingItemDto;
+import jp.co.vcpf.scraping.dto.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.slf4j.Logger;
@@ -15,6 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -22,9 +21,15 @@ public class ScrapingServiceImpl implements ScrapingService {
     private static final Logger logger = LoggerFactory.getLogger(ScrapingServiceImpl.class);
 
     @Autowired
-    ClusteringApiDao clusteringApiDao;
+    MorphemeAnalysisService morphemeAnalysisService;
+    //ClusteringApiDao clusteringApiDao;
 
-    public String scraping(RequestScrapingDto requestScrapingDto) throws Exception {
+    @Autowired
+    ClusteringControlService clusteringControlService;
+
+    public ResponseDto scraping(RequestScrapingDto requestScrapingDto) throws Exception {
+        List<MorphemeAnalysisDto> morphemeAnalysisList = new ArrayList<>();
+
         /*
          * 全検索結果に対して、Jsoupによるscrapingを実行
          */
@@ -32,24 +37,35 @@ public class ScrapingServiceImpl implements ScrapingService {
             try {
                 Document doc = Jsoup.connect(scrapItem.getLink()).get();
                 scrapItem.setContent(doc.body().text());
-
+                /*
+                List<MorphemeDto> morphemeDtoList = morphemeAnalysisService.morphemeAnalysis(doc.body().text());
+                MorphemeAnalysisDto mAnalysis = new MorphemeAnalysisDto();
+                mAnalysis.setMorphemeList(morphemeDtoList);
+                mAnalysis.setScrapingItem(scrapItem);
+                morphemeAnalysisList.add(mAnalysis);
+                */
             } catch (Exception e) {
                 e.printStackTrace();
                 logger.error(e.getMessage());
             }
         }
+
+        ResponseDto response = clusteringControlService.clustering(requestScrapingDto.getItems());
+
         // debug 用にdump
         //createJsonFile(requestScrapingDto.getItems());
 
         /*
          * scraping結果をclusteringする
          */
+        /*
         RequestClusteringDto requestClusteringDto = new RequestClusteringDto();
         requestClusteringDto.setItems(requestScrapingDto.getItems());
         requestClusteringDto.setSearchTerms(requestScrapingDto.getSearchTerms());
 
         String result = clusteringApiDao.clustering(requestClusteringDto);
-        return result;
+        */
+        return response;
     }
 
     private void createJsonFile(List<ScrapingItemDto> scrapItemList) {

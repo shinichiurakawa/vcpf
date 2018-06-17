@@ -1,10 +1,10 @@
 package jp.co.vcpf.scraping.service;
 
 import jp.co.vcpf.scraping.dto.RequestScrapingDto;
-import jp.co.vcpf.scraping.dto.ScrapingItemDto;
+import jp.co.vcpf.scraping.dto.ResponseDto;
 
 import java.util.List;
 
 public interface ScrapingService {
-    public String scraping(RequestScrapingDto requestScrapingDto) throws Exception;
+    public ResponseDto scraping(RequestScrapingDto requestScrapingDto) throws Exception;
 }
